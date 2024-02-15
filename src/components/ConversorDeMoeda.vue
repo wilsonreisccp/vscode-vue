@@ -42,7 +42,7 @@
   </div>
 
   <div class="flex flex-row">
-    <div class="basis-2/3">
+    <div class="basis-1/2">
       <div
         class="mt-4 col-start-1 row-start-3 self-center sm:mt-0 sm:col-start-2 sm:row-start-2 sm:row-span-2 lg:mt-6 lg:col-start-1 lg:row-start-3 lg:row-end-4"
       >
@@ -57,23 +57,25 @@
             type="number"
             name="price"
             id="price"
-            class="block w-full rounded-md border-0 py-1.5 pl-7 pr-20 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
+            class="block w-full rounded-md border-0 py-1.5 pl-7 pr-2 text-gray-900 ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
             v-bind:placeholder="0.0"
           />
         </div>
       </div>
     </div>
-    <div class="basis-1/3">
+    <div class="basis-1/2 ml-2">
       <div
-        class="mt-4 w-full col-start-1 row-start-3 self-center sm:mt-0 sm:col-start-2 sm:row-start-2 sm:row-span-2 lg:mt-6 lg:col-start-1 lg:row-start-3 lg:row-end-4"
+        class="mt-4 col-start-1 row-start-3 self-center sm:mt-0 sm:col-start-2 sm:row-start-2 sm:row-span-2 lg:mt-6 lg:col-start-1 lg:row-start-3 lg:row-end-4"
       >
-        <button
-          type="button"
-          v-on:click="getCotacao()"
-          class="bg-indigo-600 text-white text-sm leading-6 font-medium py-1 px-5 rounded-lg"
-        >
-          CONVERTER
-        </button>
+        <div class="relative mt-2 rounded-md shadow-sm">
+          <button
+            type="button"
+            v-on:click="getCotacao()"
+            class="bg-indigo-600 text-white leading-6 font-medium py-1.5 px-8"
+          >
+            CONVERTER
+          </button>
+        </div>
       </div>
     </div>
   </div>
