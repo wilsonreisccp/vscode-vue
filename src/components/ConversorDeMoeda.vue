@@ -14,7 +14,7 @@
           v-model="de_selected"
           id="currency"
           name="currency"
-          class="h-full rounded-md border-0 py-0 pl-1 pr-1 text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm"
+          class="h-full rounded-md border-0 py-0 pl-1 pr-1 mr-2 text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm"
         >
           <option value="BRL">Real</option>
           <option value="USD">Dólar</option>
