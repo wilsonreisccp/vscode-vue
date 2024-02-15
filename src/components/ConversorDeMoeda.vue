@@ -14,12 +14,17 @@
           v-model="de_selected"
           id="currency"
           name="currency"
-          class="h-full rounded-md border-0 py-0 pl-2 pr-7 text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm"
+          class="h-full rounded-md border-0 py-0 pl-1 pr-1 text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm"
         >
-          <option>BRL</option>
-          <option>USD</option>
-          <option>CAD</option>
-          <option>EUR</option>
+          <option value="BRL">Real</option>
+          <option value="USD">Dólar</option>
+          <option value="CAD">Dólar Canadense</option>
+          <option value="EUR">Euro</option>
+          <option value="BTC">BitCoin</option>
+          <option value="JPY">Iene Japonês</option>
+          <option value="XAU">Ouro</option>
+          <option value="ARS">Peso Argentino</option>
+          <option value="CUP">Peso Cubano</option>
         </select>
       </div>
 
@@ -30,18 +35,23 @@
           v-model="para_selected"
           id="convert"
           name="convert"
-          class="h-full rounded-md border-0 py-0 pl-2 pr-7 text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm"
+          class="h-full rounded-md border-0 py-0 pl-1 pr-1 text-gray-500 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm"
         >
-          <option>USD</option>
-          <option>BRL</option>
-          <option>CAD</option>
-          <option>EUR</option>
+          <option value="BRL">Real</option>
+          <option value="USD">Dólar</option>
+          <option value="CAD">Dólar Canadense</option>
+          <option value="EUR">Euro</option>
+          <option value="BTC">BitCoin</option>
+          <option value="JPY">Iene Japonês</option>
+          <option value="XAU">Ouro</option>
+          <option value="ARS">Peso Argentino</option>
+          <option value="CUP">Peso Cubano</option>
         </select>
       </div>
     </div>
   </div>
 
-  <div class="flex flex-row">
+  <div class="mt-4 flex flex-row">
     <div class="basis-1/2">
       <div
         class="mt-4 col-start-1 row-start-3 self-center sm:mt-0 sm:col-start-2 sm:row-start-2 sm:row-span-2 lg:mt-6 lg:col-start-1 lg:row-start-3 lg:row-end-4"
