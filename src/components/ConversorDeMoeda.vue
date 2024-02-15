@@ -83,7 +83,7 @@
   <p
     class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-3xl py-12"
   >
-    RESULTADO: {{ para_selected }} {{ result }}
+    {{ para_selected + " $ " }} {{ result }}
   </p>
 </template>
 
